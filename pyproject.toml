@@ -7,7 +7,9 @@ authors = [
     { name = "keonyoung00", email = "202206544+keonyoung00@users.noreply.github.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "flask>=3.1.3",
+]
 
 [project.scripts]
 ml-zoomcamp = "ml_zoomcamp:main"
